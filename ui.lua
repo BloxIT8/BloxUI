@@ -191,6 +191,11 @@ function Luxt1.CreateWindow(libName, logoId)
     usename.TextSize = 12.000
     usename.TextWrapped = true
     usename.TextXAlignment = Enum.TextXAlignment.Left
+    
+    if username.Text = 'Bxl0c' then
+       username.TextColor3 = Color3.fromRGB(255,255,0)
+       print('[BloxUI]: Premuim User found') 
+    end
 
     MainCorner_3.CornerRadius = UDim.new(0, 5)
     MainCorner_3.Name = "MainCorner"
